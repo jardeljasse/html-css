@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="bt-br">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Dynamic Images</title>
+		<meta name='viewport' content='width=device-width, initial-scale= 1.0'>
+		<link rel='shortcut icon' href='images/linkedIn.png' type='image/x-icon'>
+	</head>
+
+<body>
+	
+	<h1><ins>Dynamic Images</ins></h1>
+	<hr width='80%'>
+	<p>Try to open this sit in diferents devices or simply
+	add up or put down the size of your navagator</p>
+	
+	<!-- tag '<picute>' permite dinamisar as imagens conforme o tamanho da tela -->
+	
+	<picture>
+		<!-- (max-width: 1000px => if it's smaller will read the image) -->
+		<source media='(max-width: 750px)' srcset='images/P.png' type='image/png'>
+		<source media='(max-width: 1050px)' srcset='images/M.png' type='image/png'>
+		<img src='images/G.png' alt='Big Image'>
+	</picture>
+	
+	<!-- Audiio -->
+	<h1>Audio</h1>
+	
+	<p>Musica a casa <q>Versao Remix<q></p>
+	<blockquote>
+		Esta casa e sua casa , nos deixamos ela para voce Jesus
+		<cite>Ramalho Alves</cite>
+	</blockquote>
+	
+	<!-- First form -->
+	<!-- <audio src='media/casa.mp3' controls autoplay></audio> -->
+	
+	<!-- Second form -->
+	<audio preload='metadata' controls autoplay loop> 
+		<!-- The parameter 'preload' used to put details in audio and more -->
+		<source src='media/casa.mp3' type='audio/mpeg'>
+		<source src='media/casa.ogg' type='audio/ogg'>
+		<source src='media/casa.wav' type='audio/wav'>
+		<p>Infelizmente o seu <em>Navegador</em> nao suporta as
+		extensoes para audio(.mp3/.ogg/.wav)<br>utilize o link para baixar
+		<a herf='media/casa.mp3'>Baixar audio</a></p>
+	</audio>
+	
+</body>
+
+
+</html>

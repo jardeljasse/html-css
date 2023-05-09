@@ -1,0 +1,8 @@
+
+
+box-shadow
+
+Ex: box-shadow: deslocamentoH deslocamnentoV espalhamentoBLUR espalhamentoSPREAD COR(da sombra);
+	box-swadoew: 1px 1px 1px 1px black;
+
+tex

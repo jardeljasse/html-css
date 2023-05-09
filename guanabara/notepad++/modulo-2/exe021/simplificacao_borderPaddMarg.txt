@@ -1,0 +1,37 @@
+
+Border
+
+
+border-width: 10px;   |
+border-style: dotted; |=>border: 10px, outset, red;
+border-color: black;  |
+
+Outline
+
+
+outline-width: 12px;           |
+outline-style: groove;         |=>border: 10px, outset, red;
+outline-color: darkslategray;  |
+
+Margin
+
+margin-top:10px;     |
+margin-right: 30px;  |=>margin: 10px, 30px, 10px, 30px	
+margin-bottom: 10px; |
+margin-left: 30px;   |
+
+
+Padding
+
++Same border to all side
+ 
+padding-top:10px;     |
+padding-right: 10px;  |=>padding: 10px, 10px, 10px, 10px; / padding: 10px;	
+padding-bottom: 10px; |
+padding-left: 10px;   |
+
++ top & bottom, right & left
+
+padding: 10px 20px;   |=> 10px => padding-top padding-bottom
+		      |=> 20px => padding-right pading-left 
+

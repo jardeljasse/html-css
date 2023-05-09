@@ -1,0 +1,42 @@
+===============================
+ MODELO DE CAIXA EM CSS E HTML
+===============================
+
+=>Possui uma hiearqui 'aninhada'
+
+MEDIDAS:
+	1.Altura = heigth
+	2.Lergura = width
+	3.Borda = border: Tracar uma linha envolta do conteudo,
+dentro do elemento
+	4.Preenchimento = padding (padding-top, rigth, bottom e left)
+	5.Margem = margin: espaco externo (da borda para fora)
+	6.Contorno/Tracado = outline(): semelhante a borda, mas externo (dentro da margem do lado de fora da borda)
+
+<<<<<TIPOS DE CAIXA>>>>>
+NB: todo 'paragrafo' e uma caixa
+
+1.BOX-LEVEL
+
++Sempre inicia numa linha nova, e no final quebra a linha
++Lergura sempre 100%
++inicia com uma 'margin' de 21.440px
+*display: block;* significa que o elemnto em questao sera uma
+box-level
+
+EX: <div>
+<h1-h6>
+<main>
+<header>
+<nav>
+<article>
+2.INLINE-LEVEL
+
++nao pula para nova linha, mesmo no final dela
+EX:
+<span></span>
+<em>
+<ins>
+<q>
+<input>
+<buttom>

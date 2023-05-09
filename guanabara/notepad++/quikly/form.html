@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+<head>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+	<title>Simple form</title>
+</head>
+
+<body>
+	<h1>Form</h1>
+	
+	<form autocomplete='off' method='post'>
+		<div>
+		<label for='inome'>Nome:
+			<input type='text' name='nome' id='inome' maxlength='7' required>
+		</label>
+		</div><br>
+		<div>
+		<label for='isenha'>Senha
+			<input type='password' name='senha' id='isenha' placeholder='your security' required>
+		</label>
+		</div><br>
+		<div>
+		<label for='idataNasc'>Idade
+			<input type='number' name='dataNas' id='idataNasc' min='15' required>
+		</label>
+		</div>
+		<input type='submit' name='enviar' id='ienviar' value='Enviar'>
+	</form>
+	
+	<script>
+		const dadosPessoais = (h, b) => {
+			const area = (b * h)/2
+			//window.alert('Preecha dividamente o formulario!');
+			return area
+		}
+		document.write(`A area do triangulo e ${dadosPessoais(2, 3)}`);
+		document.write('</br> A area do triangulo e '+dadosPessoais(4, 2));
+	</script>
+	
+</body>
+
+</html>

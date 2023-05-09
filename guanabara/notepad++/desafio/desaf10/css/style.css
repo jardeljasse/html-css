@@ -1,0 +1,123 @@
+@font-face{
+	font-family: 'Android';
+	src: url('/fontes/idroid.otf') format('opentype');
+	font-weight: normal;
+}
+:root{
+	--fonteAndroid: 'Android';
+}
+
+*{
+	margin: 0px;
+}
+
+body{
+	margin: 0px;
+	background-color:  rgb(178, 194, 115, 0.500);
+	font-family: Arial, Helvetica, sans-serif;
+}
+header{
+	/*background:  rgb(11, 194, 66);*/
+	margin: 0px;
+	background-image: linear-gradient(to bottom, rgb(16, 165, 16), rgba(6, 73, 6, 0.805));
+
+	/*box-shadow: inset 10px -20px 40px -10px black;*/
+}
+h1,p.header{
+	text-align: center;
+	color: white;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+nav{
+	padding-bottom: 5px;
+}
+nav > a{
+	text-decoration: none;
+	color: white;
+	margin-left: 8px; 
+	
+}
+nav > a:hover{
+	background-color: rgb(5, 71, 5);
+	padding: 5px;
+	color: green;
+}
+section#content{
+	background-color: white;
+	margin: 0 100px;
+	height: 1480px;
+}
+main{
+	
+}
+section.video{
+	background-color: white;
+	height: 500px;
+	box-shadow: inset 0px 0px 0px 17px green;
+	margin: 0px 100px 0px 100px;
+}
+section.learningMore{
+	background-color: white;
+	height: 500px;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 30px; 
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+main.learn{
+	background-color:  rgba(82, 222, 57, 0.959);
+	border-radius: 10px;
+	margin: 20px 10px 30px 10px;
+	height: 400px;
+}
+main > h3{
+	background-color: darkgreen;
+	color: white;
+	padding: 10px;
+}
+footer{
+	background-color: darkgreen;
+	
+}
+p.footer{
+	text-align: center;
+	padding: 5px;
+	color: white;
+	font-weight: 10px;
+}
+main > p.bugdroid{
+	margin-bottom: 40px;
+}
+p{
+	padding: 0 30px 0 30px;
+	text-align: justify;
+	text-indent: 2em;
+	line-height: 2em;
+}
+h2.h2-principal{
+	color: rgb(5, 71, 5);
+	padding-top: 30px;
+	margin-left: 18px;
+	text-ident: 23px;
+	font-family: var(--fonteAndroid);
+}
+main > h3.p2-principal{
+	margin-left: 0px;
+	text-indent: 0px;
+	padding: 0px;
+	color: green;
+	background-image: linear-gradient(to right, rgb(142, 205, 142), white); 
+	text-indent: 23px;
+	font-weight: bold;
+	font-family: var(--fonteAndroid);
+
+}
+img{
+	align-item: center;
+}
+mark{
+	background-color: rgb(142, 205, 142);
+	padding: 3px;
+}

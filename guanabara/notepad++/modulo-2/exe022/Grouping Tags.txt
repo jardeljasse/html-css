@@ -1,0 +1,18 @@
+
+
+Grouping Tags
+ => 1. <div> => display: block;
+ => 2. <span> => display: inline;
+
+Simple site has:
+
+1. header => <header></header>
+	1.1 Menu(links) => <nav></nav>
+	1.2 Section(any thing) => <section></section>
+		1.2.1 Article(breakingNews) => <article></article>
+			1.2.1.1 Aside(text reference tag'article') => <aside></aside>
+
+2. principal content => <main></main>
+
+
+3. footer => <footer></footer>

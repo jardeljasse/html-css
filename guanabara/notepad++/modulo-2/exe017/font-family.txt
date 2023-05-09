@@ -1,0 +1,28 @@
+
+*****Fonte Family*****
+
+===Categotias===
+
+I. FONTES SERIFADAS (serif)
+	Browser's default use: Times and Times New Rome
+Ex: font-family: times, serif;
+
+II. FONTES NAO SERIFADAS (sans-serif)
+Ex: font-family: Arial, Helvetica, sans-serif;
+
+III. FONTES MONOSPACADAS (monospace)
+Ex: font-family: courier, monaspace;
+
+*****FONT STYLE*****
+
+Ex: font-style: normal/italic/oblique
+
+*****ALINHAMENTO*****
+text-align: center/justify/left/right
+
+or:
+
+line-height: 2px => tamanho de altura de cada linha / default: 20px;
+letter-sapcing: 3px => tamanho do espaco entre cada letra / default: 0,5px;
+word-spacing: 5px => tamanho do espaco entre cada palavra
+text-indent: 20px => tamanho da margem da 1a linha do texto

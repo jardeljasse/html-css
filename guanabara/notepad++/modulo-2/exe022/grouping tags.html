@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<title>Grouuping Tags</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+	<style>
+		body{
+			font-family: Arial, Helvetica, sans-serif;
+			background-color: dimgray;
+			margin: 0px;
+		}
+		header{
+			background-color: white;
+			padding: 10px;
+			margin: 10px;
+			border-radius: 1.5px;
+		}
+		main{
+			background-color: #fff;
+			padding: 5px;
+			margin: 10px;
+			border-radius: 2px;
+		}
+		article{
+			background-color: lightgray;
+		}
+		article > aside{
+			background-color: rgb(165, 165, 165);
+		}
+		article > p{
+			text-align: justify;
+		}
+		nav{
+			background-color: rgb(102, 102, 102);
+			padding: 6px;
+			box-shadow: 2px 4px 7px 1px rgba(0, 0, 0, 493);
+			
+		}
+		nav > a{
+			text-decoration: none;
+			color: white;
+			weight: bold;
+			margin-right: 35px;
+		}
+		nav > a:hover{
+			text-decoration: underline;
+			padding-right: 1.8px;
+		}
+		footer{
+			padding: 7px;
+			background-color: #000;
+			color: #fff;
+			border-radius: 5px;
+			margin: 0px;
+			text-align: center;
+		}
+		footer > p{
+			margin: 0px;
+		}
+		h1{
+			mmarign: 0px;
+			color:rgb(16, 165, 16);
+		}
+	</style>
+</head>
+
+<body>
+	
+	<header>
+		<h1>My Site</h1>
+		<nav>
+			<a href='#'>Home</a>
+			<a href='#'>content</a>
+			<a href='#'>News</a>
+			<a href='#'>About Us!</a>
+		</nav>
+	</header>
+	<main>	
+		<section id='title'>
+			<article>
+				<h2>News about Mozambique</h2>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+				Maecenas porttitor congue massa. Fusce posuere, 
+				magna sed pulvinar ultricies, purus lectus
+				 malesuada libero, sit amet commodo magna eros quis urna.
+				Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
+				Pellentesque habitant morbi tristique 
+				senectus et netus et malesuada fames ac
+				 turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
+				Aenean nec lorem. In porttitor. Donec 
+				laoreet nonummy augue.
+				Suspendisse dui purus, scelerisque at, 
+				vulputate vitae, pretium mattis, nunc. Mauris eget 
+				neque at sem venenatis eleifend. Ut nonummy.
+				</p>	
+				<aside>
+					<p><q>Article wrote by Jardel Jeremias Jasse&#153;<q/></p>
+				</aside>
+			</article>
+
+		</section>
+		<section id='breakingNews'>
+			
+		</section>
+	</main>
+	<footer>
+		<p>Developed by <em>Jardel Jeremias Jasse&#x1f500;</em> &copy; <ins>2023</ins></p>
+	</footer>
+	
+</body>
+
+
+</html>

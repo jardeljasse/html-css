@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efeito Zebrado </title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        li{
+            list-style: none;
+            padding: 2%;
+        }
+        li:first-letter{
+            font-size: 1.3em;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-style: italic;
+        }
+        li::after{/*Pseudo-Elemento*/
+            content: '[link]';
+            color: darkgray;
+
+        }
+        li:nth-child(2n){
+            background-color: lightgreen;
+        }
+        li:nth-child(2n+1){
+            background-color: lightblue;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <ul>
+        <li>Cabo Delgado</li>
+        <li>Niassa</li>
+        <li>Nampula</li>
+        <li>Zambezia</li>
+        <li>Tete</li>
+        <li>Manica</li>
+        <li>Sofala</li>
+        <li>Inhambane</li>
+        <li>Gaza</li>
+        <li>Maputo-Cidade</li>
+        <li>Maputo-Provincia</li>
+    </ul>
+</body>
+</html>
